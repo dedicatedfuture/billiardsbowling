@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @frame.game_id %>
+</p>
+
+<p>
+  <strong>Firstball:</strong>
+  <%= @frame.firstball %>
+</p>
+
+<p>
+  <strong>Secondball:</strong>
+  <%= @frame.secondball %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @frame.user %>
+</p>
+
+<%= link_to 'Edit', edit_frame_path(@frame) %> |
+<%= link_to 'Back', frames_path %>
